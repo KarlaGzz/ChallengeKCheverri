@@ -7,6 +7,7 @@ pipeline {
             steps {
                 sh '''
                 ls -ltrha
+                echo $par1
                                     '''
             }
         }
